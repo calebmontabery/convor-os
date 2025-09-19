@@ -26,18 +26,18 @@ import {
 import { Button } from "@/components/ui/button";
 
 const navigationItems = [
-  { title: "Dashboard", url: "/", icon: BarChart3 },
-  { title: "VisionPro", url: "/vision", icon: Eye },
-  { title: "PrePro", url: "/prepro", icon: Lightbulb },
-  { title: "ProDay", url: "/proday", icon: Calendar },
-  { title: "PostPro", url: "/postpro", icon: Film },
-  { title: "FlowPro", url: "/flowpro", icon: BarChart3 },
+  { title: "Dashboard", url: "/app", icon: BarChart3 },
+  { title: "VisionPro", url: "/app/vision", icon: Eye },
+  { title: "PrePro", url: "/app/prepro", icon: Lightbulb },
+  { title: "ProDay", url: "/app/proday", icon: Calendar },
+  { title: "PostPro", url: "/app/postpro", icon: Film },
+  { title: "FlowPro", url: "/app/flowpro", icon: BarChart3 },
 ];
 
 const secondaryItems = [
-  { title: "Templates", url: "/templates", icon: FileText },
-  { title: "Community", url: "/community", icon: Users },
-  { title: "Assets", url: "/assets", icon: FolderOpen },
+  { title: "Templates", url: "/app/templates", icon: FileText },
+  { title: "Community", url: "/app/community", icon: Users },
+  { title: "Assets", url: "/app/assets", icon: FolderOpen },
 ];
 
 export function AppSidebar() {
@@ -117,7 +117,7 @@ export function AppSidebar() {
 
       <SidebarFooter className="p-6">
         <NavLink 
-          to="/settings"
+          to="/app/settings"
           className={({ isActive }) =>
             `flex items-center gap-3 px-3 py-2 rounded-lg transition-colors ${
               isActive 
