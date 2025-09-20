@@ -91,7 +91,7 @@ export default function Landing() {
               {[1,2,3,4,5].map((i) => (
                 <Star key={i} className="w-4 h-4 fill-primary text-primary" />
               ))}
-              <span>4.9/5 rating</span>
+              <span>4.8/5 rating</span>
             </div>
           </div>
         </div>
