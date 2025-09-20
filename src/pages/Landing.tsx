@@ -48,7 +48,7 @@ export default function Landing() {
             The Content Operating System
           </Badge>
           
-          <h1 className="text-5xl md:text-7xl font-bold mb-6 leading-tight">
+          <h1 className="text-3xl md:text-5xl font-bold mb-6 leading-tight">
   <span className="convor-brand block text-3xl md:text-5xl">
     The content operating system
   </span>
