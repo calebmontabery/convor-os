@@ -49,12 +49,11 @@ export default function Landing() {
           </Badge>
           
       <div className="max-w-4xl mx-auto px-4">
-  <h1 className="font-bold mb-6 leading-tight text-4xl md:text-6xl">
-    <span className="convor-brand whitespace-nowrap">
+  <h1 className="font-bold mb-6 leading-snug text-4xl md:text-6xl lg:text-7xl">
+    <span className="convor-brand block">
       The content operating system
     </span>
-    <br />
-    <span className="convor-brand">
+    <span className="convor-brand block">
       that turns vision into results.
     </span>
   </h1>
