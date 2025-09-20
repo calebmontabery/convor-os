@@ -49,14 +49,13 @@ export default function Landing() {
           </Badge>
           
           <h1 className="text-5xl md:text-7xl font-bold mb-6 leading-tight">
-            <span className="convor-brand">Create. Convert.</span>
+            <span className="convor-brand">The content operating system</span>
             <br />
-            <span className="convor-brand">Convor.</span>
+            <span className="convor-brand">that turns vision into results.</span>
           </h1>
           
           <p className="text-xl text-muted-foreground mb-8 max-w-2xl mx-auto leading-relaxed">
-            Replace fragmented tools with one unified system. Plan, produce, distribute, and optimize content 
-            that actually converts. Where vision meets workflow, analytics, and community.
+           Plan smarter, create faster, and grow bigger with Convor’s 5‑stage content OS.
           </p>
           
           <div className="flex flex-col sm:flex-row gap-4 justify-center mb-12">
