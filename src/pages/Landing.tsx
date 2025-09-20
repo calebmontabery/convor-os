@@ -48,14 +48,17 @@ export default function Landing() {
             Create. Convert. Convor.
           </Badge>
           
-          <h1 className="font-bold mb-6 leading-tight text-6xl md:text-8xl whitespace-nowrap tracking-tight">
-  <span className="convor-brand block">
-    The content operating system
-  </span>
-  <span className="convor-brand block">
-    that turns vision into results.
-  </span>
-</h1>
+        <div className="max-w-4xl mx-auto px-4">
+  <h1 className="font-bold mb-6 leading-tight text-4xl md:text-6xl lg:text-7xl">
+    <span className="convor-brand block">
+      The content operating system
+    </span>
+    <span className="convor-brand block">
+      that turns vision into results.
+    </span>
+  </h1>
+</div>
+
 
 
         
