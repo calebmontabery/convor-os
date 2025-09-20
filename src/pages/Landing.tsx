@@ -25,9 +25,9 @@ export default function Landing() {
         <div className="container mx-auto px-6 h-16 flex items-center justify-between">
           <div className="flex items-center gap-2">
             <div className="w-8 h-8 rounded-lg bg-gradient-to-br from-primary to-primary/70 flex items-center justify-center">
-              <span className="text-primary-foreground font-bold text-sm">C</span>
+              <span className="text-primary-foreground font-bold text-sm"></span>
             </div>
-            <h1 className="text-xl font-bold convor-brand">Convor</h1>
+            <h1 className="text-xl font-bold convor-brand">Convera</h1>
           </div>
           
           <nav className="hidden md:flex items-center gap-8">
@@ -45,7 +45,7 @@ export default function Landing() {
         <div className="container mx-auto text-center max-w-4xl">
           <Badge className="mb-6 bg-primary/10 text-primary border-primary/20">
             <Zap className="w-3 h-3 mr-1" />
-            Create. Convert. Convor.
+            Create. Convert. Convera.
           </Badge>
           
       <div className="max-w-4xl mx-auto px-4">
@@ -65,7 +65,7 @@ export default function Landing() {
         
           
           <p className="text-xl text-muted-foreground mb-8 max-w-2xl mx-auto leading-relaxed">
-           Plan smarter, create faster, and grow bigger with Convor’s 5‑stage content OS.
+           Plan smarter, create faster, and grow bigger with Convera’s 5‑stage content OS.
           </p>
           
           <div className="flex flex-col sm:flex-row gap-4 justify-center mb-12">
