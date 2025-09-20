@@ -49,7 +49,8 @@ export default function Landing() {
           </Badge>
           
         <div className="max-w-4xl mx-auto px-4">
-  <h1 className="font-bold mb-6 leading-tight text-4xl md:text-6xl">
+  <h1 className="font-bold mb-6 leading-tight text-4xl md:text-6xl whitespace-nowrap
+">
     <span className="convor-brand block">
       The content operating system
     </span>
